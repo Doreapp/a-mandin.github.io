@@ -1,0 +1,14 @@
+.event {
+    display: flex;
+}
+
+.event .time {
+    text-align: right;
+}
+
+.event .line {
+    margin-left: 2%;
+    width: 1px;
+    background-color: #ffd54f;
+    margin-right: 2%;
+}
