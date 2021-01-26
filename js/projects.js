@@ -1,7 +1,10 @@
+//chrome.exe --allow-file-access-from-files
+
 buildProjectView = function(projectData) {
+    console.log("build project data (" + projectData.name + ")")
     var project = document.createElement("div");
     var title = document.createElement("h1");
-    title.innerText = projectData.title;
+    title.innerText = projectData.name;
     project.appendChild(title)
 
     if (projectData.startDate != undefined) {
@@ -22,7 +25,7 @@ buildProjectView = function(projectData) {
 
     if (projectData["content-uri"] != undefined) {
         var link = document.createElement("a");
-        link.href = projectData["content-uri"];
+        link.href = 'markdown-view.html?' + projectData["content-uri"];
         link.innerText = "See more";
         project.appendChild(link)
     }
@@ -42,9 +45,10 @@ window.onload = function() {
     loadJSON('raw/json/projects.json',
         function(data) {
             console.log(data);
-            var projectArray = JSON.parse(projects);
-            populatePage(projectArray)
+            populatePage(data.projects)
         },
-        function(xhr) { console.error(xhr); }
+        function(xhr) {
+            console.error(xhr);
+        }
     );
 }
