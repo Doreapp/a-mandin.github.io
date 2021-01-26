@@ -1,0 +1,53 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #1E1E1E;
+    color: #ffd54f;
+    padding: 1%;
+}
+
+
+/*
+Nodes
+*/
+
+h1 {
+    margin-left: 5%;
+}
+
+a {
+    color: #ffff81;
+}
+
+
+/*
+Classes
+*/
+
+.overrable-block {
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #ffd54f;
+    border-style: solid;
+    border-width: 0px;
+}
+
+.overrable-block:hover {
+    border-width: 1px;
+}
+
+.light {
+    background-color: #ffd54f;
+    color: #1E1E1E;
+}
+
+
+/*
+Responsive 
+*/
+
+@media screen and (min-width: 800px) {
+    h1 {}
+}
