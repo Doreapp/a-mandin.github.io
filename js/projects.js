@@ -41,6 +41,7 @@ populatePage = function(projectArray) {
 }
 
 window.onload = function() {
+    init();
     console.log("on loaded");
     loadJSON('raw/json/projects.json',
         function(data) {
