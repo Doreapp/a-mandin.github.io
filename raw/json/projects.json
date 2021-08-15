@@ -1,10 +1,134 @@
 {
     "projects": [{
-        "name": "Mars Rover",
-        "startDate": "01-02-2018",
-        "endDate": "01-06-2018",
-        "description": "P2I project (2018) : Build of a Rover with several constraints and goals, into a team of 15 students.",
-        "description-fr": "Projet de P2I 2018 : Construction d'un Rover avec différentes contraintes et objectifs, dans une équipe d'une 15aine de personnes.",
-        "content-uri": "mars-rover.md"
-    }]
+            "name": "Jeu Bomberman",
+            "startDate": "04-2018",
+            "endDate": "06-2018",
+            "description": "Project for INSA Lyon 1st Year. We created a bomberman game playable by two players on the same computer.",
+            "description-fr": "",
+            "content-uri": "bomberman-1A.md",
+            "icon-uri": "ic_bomb.svg"
+        }, {
+            "name": "Projet algo fusée",
+            "startDate": "?? 2A",
+            "endDate": "?",
+            "description": "Simulation de vol, avec bob",
+            "description-fr": "",
+            "content-uri": "",
+            "icon-uri": "ic_rocket.svg"
+        },
+        {
+            "name": "Mars Rover",
+            "startDate": "01-02-2018",
+            "endDate": "01-06-2018",
+            "description": "P2I project (2018) : Build of a Rover with several constraints and goals, into a team of 15 students.",
+            "description-fr": "Projet de P2I 2018 : Construction d'un Rover avec différentes contraintes et objectifs, dans une équipe d'une 15aine de personnes.",
+            "content-uri": "mars-rover.md",
+            "icon-uri": "ic_rover.svg"
+        }, {
+            "name": "TP(s) POO 3IF",
+            "startDate": "?? 1A",
+            "endDate": "?",
+            "description": "Bomberman with tit",
+            "description-fr": "",
+            "content-uri": "",
+            "icon-uri": ""
+        }, {
+            "name": "TP DASI",
+            "startDate": "?? 1A",
+            "endDate": "?",
+            "description": "Bomberman with tit",
+            "description-fr": "",
+            "content-uri": "",
+            "icon-uri": ""
+        }, {
+            "name": "Stage 3IF",
+            "startDate": "?? 1A",
+            "endDate": "?",
+            "description": "Bomberman with tit",
+            "description-fr": "",
+            "content-uri": "",
+            "icon-uri": ""
+        }, {
+            "name": "MARS 4IF",
+            "startDate": "?? 1A",
+            "endDate": "?",
+            "description": "Bomberman with tit",
+            "description-fr": "",
+            "content-uri": "",
+            "icon-uri": ""
+        },
+        {
+            "name": "Projet Agile 4IF",
+            "startDate": "?? 1A",
+            "endDate": "?",
+            "description": "Bomberman with tit",
+            "description-fr": "",
+            "content-uri": "",
+            "icon-uri": ""
+        }, {
+            "name": "Projet WS 4IF",
+            "startDate": "?? 1A",
+            "endDate": "?",
+            "description": "Bomberman with tit",
+            "description-fr": "",
+            "content-uri": "",
+            "icon-uri": ""
+        }, {
+            "name": "Waso 4IF",
+            "startDate": "?? 1A",
+            "endDate": "?",
+            "description": "Bomberman with tit",
+            "description-fr": "",
+            "content-uri": "",
+            "icon-uri": ""
+        }, {
+            "name": "FD 4IF",
+            "startDate": "?? 1A",
+            "endDate": "?",
+            "description": "Bomberman with tit",
+            "description-fr": "",
+            "content-uri": "",
+            "icon-uri": ""
+        }, {
+            "name": "ALIA 4IF",
+            "startDate": "?? 1A",
+            "endDate": "?",
+            "description": "Bomberman with tit",
+            "description-fr": "",
+            "content-uri": "",
+            "icon-uri": ""
+        }, {
+            "name": "SN papier sur les paiement démat ?",
+            "startDate": "?? 1A",
+            "endDate": "?",
+            "description": "Bomberman with tit",
+            "description-fr": "",
+            "content-uri": "",
+            "icon-uri": ""
+        }, {
+            "name": "Bal 2020",
+            "startDate": "?? 1A",
+            "endDate": "?",
+            "description": "Bomberman with tit",
+            "description-fr": "",
+            "content-uri": "",
+            "icon-uri": ""
+        }, {
+            "name": "Bal 2021",
+            "startDate": "?? 1A",
+            "endDate": "?",
+            "description": "Bomberman with tit",
+            "description-fr": "",
+            "content-uri": "",
+            "icon-uri": ""
+        }, {
+            "name": "AEDI 2020-2021",
+            "startDate": "?? 1A",
+            "endDate": "?",
+            "description": "Bomberman with tit",
+            "description-fr": "",
+            "content-uri": "",
+            "icon-uri": ""
+        }
+    ]
 }

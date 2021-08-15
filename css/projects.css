@@ -1,0 +1,23 @@
+#projects {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.project {
+    margin-bottom: 2em;
+}
+
+.project p {
+    color: whitesmoke;
+}
+
+.project h1 {
+    color: white;
+    font-size: x-large;
+}
+
+.project img {
+    width: 3em;
+    border-style: none;
+    margin-left: 2em;
+}

@@ -1,0 +1,44 @@
+#markdown-container {
+    padding: 5%;
+}
+
+#markdown-container h1 {
+    text-align: center;
+}
+
+#markdown-container h2 {
+    margin-left: 1em;
+}
+
+#markdown-container h3 {
+    margin-left: 1em;
+}
+
+#markdown-container h4 {
+    margin-left: 1em;
+}
+
+#markdown-container h5 {
+    margin-left: 1em;
+}
+
+#markdown-container h6 {
+    margin-left: 1em;
+}
+
+#markdown-container code {
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    background-color: #004c8c;
+    border-radius: 0.2em;
+    border-width: 0.1px;
+}
+
+.bordered {
+    border-width: 0.2em;
+    border-radius: 0.2em;
+    border-style: solid;
+    border-color: #004c8c;
+}

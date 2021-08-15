@@ -17,11 +17,10 @@ populatePage = function(markdown) {
 
     converter = new showdown.Converter(),
         html = converter.makeHtml(markdown);
-    document.querySelector("body").innerHTML += html;
+    document.querySelector("#markdown-container").innerHTML = html;
 }
 
 window.onload = function() {
-    init();
     var prmstr = window.location.search.substr(1);
     loadText('raw/markdown/' + prmstr,
         function(data) {

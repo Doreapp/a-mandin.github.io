@@ -36,3 +36,9 @@ function parseYAML(str) {
     }
     return data;
 }
+
+function stringToElement(htmlStr) {
+    var temp = document.createElement('div');
+    temp.innerHTML = htmlStr;
+    return temp.firstChild;
+}

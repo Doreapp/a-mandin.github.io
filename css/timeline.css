@@ -4,6 +4,7 @@
 
 .event .time {
     text-align: right;
+    width: 10%;
 }
 
 .event .line {
@@ -11,4 +12,13 @@
     width: 1px;
     background-color: #ffd54f;
     margin-right: 2%;
+}
+
+.event .description {
+    width: 80%;
+}
+
+#overline-timeline {
+    margin-bottom: 2%;
+    padding: 1%;
 }

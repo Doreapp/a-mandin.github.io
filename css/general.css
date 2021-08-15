@@ -15,6 +15,7 @@ Nodes
 
 h1 {
     margin-left: 5%;
+    color: white;
 }
 
 a {
@@ -52,8 +53,16 @@ header h1 a {
     float: right;
 }
 
+#language-button {
+    border: none;
+    outline: none;
+}
+
 section {
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     color: whitesmoke;
 }
 
@@ -74,10 +83,39 @@ section .major-icon {
     margin-right: 1em;
 }
 
+footer {
+    border-top-color: #58a5f0;
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding-top: 0.5em;
+    color: #D0D0D0;
+    bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+footer a {
+    color: #D0D0D0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #58a5f0;
+}
+
 
 /*
 Classes
 */
+
+.fr {
+    display: inline;
+}
+
+.en {
+    display: none;
+}
 
 .overrable-block {
     border-radius: 5px;
@@ -115,6 +153,8 @@ Classes
 .major-icon {
     height: 5em;
     fill: #58a5f0;
+    stroke: #58a5f0;
+    stroke-width: 0px;
 }
 
 .inlined {
